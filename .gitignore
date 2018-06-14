@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/GetTweets/.vs
+/GetTweets/GetTweets/bin/
+/GetTweets/GetTweets/obj
+/GetTweets/GetTweets-Service/bin
+/GetTweets/GetTweets-Service/obj
+/GetTweets/GetTweets-Tests/bin
+/GetTweets/GetTweets-Tests/obj
