@@ -4,7 +4,7 @@ This is a repository with test solution for CustomerTimes
 A Bad REST API
 A Client needs us to pull 2 years of ultra-cool curated tweets they have collected and stored
 themselves. We need to make sure that we get all tweets tweeted in 2016 and 2017.
-The only way to get this data is to use the client's REST API. But it's not a well-designed API...
+The only way to get this data is to use the client's REST API (https://badapi.iqvia.io/swagger/). But it's not a well-designed API...
 
 Complications 
 - The API only lets you search for tweets with timestamps falling in a window specified by
