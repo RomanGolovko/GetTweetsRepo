@@ -46,9 +46,8 @@ namespace GetTweets_Service.Realizations
 
                 await GetTweetsFromBadApi(url, tweets, client, secondHalfStartDate, secondHalfEndDate);
             }
-
-            // if records a less then 100 we add them to final list
-            tweets.AddRange(tweetsFromBadApi);
+            else    // if records a less then 100 we add them to final list
+                tweets.AddRange(tweetsFromBadApi);
         }
 
         private static DateTime GetHalfDate(DateTime start, DateTime end)
